@@ -1,0 +1,20 @@
+.selectInput {
+  margin: 20px 0;
+}
+
+.selectInput label {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.selectInput select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 24px;
+  border: none;
+  font-size: 18px;
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.06);
+}
