@@ -7,11 +7,11 @@ const groups = [
   "UX & Design"
 ]
 
-const SelectInput = ({ label }) => {
+const SelectInput = ({ label, value, onChange }) => {
   return (
     <div className={styles.selectInput} >
       <label>{label}</label>
-      <select>
+      <select value={value} onChange={onChange}>
         <option disabled></option>
 
         {groups.map(
