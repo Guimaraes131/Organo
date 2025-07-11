@@ -1,0 +1,20 @@
+.inputText {
+  margin: 20px 0;
+}
+
+.inputText label {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.inputText input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 24px;
+  border: none;
+  font-size: 18px;
+  box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.06);
+}
